@@ -1,53 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-	<title>UdoTube</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<title>うどチューブVer1.1</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
-		<div class="logo">
-			<img src="logo.png">
-			<h1>うどチューブ</h1>
-		</div>
+		<h1>うどチューブ</h1>
 		<nav>
 			<ul>
 				<li><a href="#">ホーム</a></li>
-				<li><a href="#">人気の動画</a></li>
-				<li><a href="#">カテゴリー</a></li>
-				<li><a href="#">マイページ</a></li>
-				<li><a href="#">ログイン</a></li>
+				<li><a href="#">人気動画</a></li>
+				<li><a href="#">新着動画</a></li>
+				<li><a href="#">おすすめ動画</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section class="video-section">
-			<div class="video-container">
-				<iframe src="https://streamable.com/e/66qgut?loop=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-				<p>フジフジダンス 1那由多再生</p>
-			</div>
-			<div class="video-container">
-				<iframe src="https://streamable.com/e/jupmft?loop=0" width="560" height="373" frameborder="0" allowfullscreen></iframe>
-				<p>うどん蝶 1再生</p>
-			</div>
-			<div class="video-container">
-				<iframe src="https://streamable.com/e/w2tou5?loop=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-				<p>ふじいはるやくんまたねー 0.1再生</p>
-			</div>
-		</section>
-		<section class="category-section">
-			<h1>カテゴリー</h1>
-			<ul>
-				<li><a href="#">音mad</a></li>
-				<li><a href="#">曲</a></li>
-				<li><a href="#">なし</a></li>
-				<li><a href="#">なし</a></li>
-				<li><a href="#">なし</a></li>
-			</ul>
-		</section>
+		<div class="video">
+			<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/w2tou5?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+			<h2>ふじいくんばいばい</h2>
+			<p>こいつ誰やねん</p>
+		</div>
+		<div class="video">
+			<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/66qgut?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+			<h2>フジフジダンス</h2>
+			<p>世界に1つだけの名作</p>
+		</div>
+		<!-- 他の動画を追加することもできます -->
 	</main>
-	<footer>
-		<p>&copy; 2023 UdoTube</p>
-	</footer>
 </body>
 </html>
