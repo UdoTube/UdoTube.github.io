@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-	<meta charset="UTF-8">
-	<title>うどチューブVer1.1</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<header>
-		<h1>うどチューブ</h1>
-		<nav>
-			<ul>
-				<li><a href="#">ホーム</a></li>
-				<li><a href="#">人気動画</a></li>
-				<li><a href="#">新着動画</a></li>
-				<li><a href="#">おすすめ動画</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<div class="video">
-			<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/w2tou5?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-			<h2>ふじいくんばいばい</h2>
-			<p>こいつ誰やねん</p>
-		</div>
-		<div class="video">
-			<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/66qgut?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-			<h2>フジフジダンス</h2>
-			<p>世界に1つだけの名作</p>
-		</div>
-		<!-- 他の動画を追加することもできます -->
-	</main>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>うどチューブVer1.2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>うどチューブ</h1>
+      <form>
+        <input type="text" placeholder="検索">
+        <button class="search-btn"></button>
+      </form>
+    </header>
+    <div class="video-list">
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OLQcyRjhLaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h2>ホラーゲムやってみた！！！（4月5日12時0分）</h2>
+        <p>投稿者：ましゆ154</p>
+        <p>再生回数：600回</p>
+        <p>投稿日時：2023/04/05 12:00:00</p>
+      </div>
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gmoFix0SP0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h2>はるやくんまたねー→お前誰</h2>
+        <p>投稿者：【公認】うどん切り抜き</p>
+        <p>再生回数：500回</p>
+        <p>投稿日時：2023/04/03 18:00:00</p>
+      </div>
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pCu0vDIGSvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h2>フジフジダンス</h2>
+        <p>投稿者：choco</p>
+        <p>再生回数：10000000000Qa回</p>
+        <p>投稿日時：2023/04/00 15:00:00</p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
