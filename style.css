@@ -58,7 +58,46 @@ body {
   .search button[type="submit"]:hover {
     background-color: #FF8C69;
   }
- 
+  
+  /* サイドバー */
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100vh;
+    background-color: #FF0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebar li {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+  
   /* コンテンツ */
   
   .main {
@@ -95,5 +134,91 @@ body {
     font-size: 14px;
     color: #666;
     margin: 5px 0;
+  }
+  /* 動画リストのコンテナ */
+.video-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+/* 各動画リストのアイテム */
+.video-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 48%;
+}
+
+/* サムネイル画像 */
+.video-thumbnail {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+}
+
+/* タイトル */
+.video-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* 動画情報 */
+.video-info {
+  font-size: 14px;
+  margin: 10px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* 動画リストのコンテナ */
+.video-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1000px;
+  }
+  
+  /* 各動画リストのアイテム */
+  .video-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 48%;
+  }
+  
+  /* サムネイル画像 */
+  .video-thumbnail {
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+  }
+  
+  /* タイトル */
+  .video-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* 動画情報 */
+  .video-info {
+    font-size: 14px;
+    margin: 10px 0 0;
   }
   
